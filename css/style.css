@@ -194,5 +194,71 @@ nav ul a {
 
 .class-card-text p {
 	line-height: 1.6;
-    font-weight: 300;
+	font-weight: 300;
+}
+
+.thesis-exhibit h2 {
+	color: darkslategray;
+	text-align: center;
+	font-size: 40px;
+	padding: 32px;
+	margin: 0;
+}
+
+.thesis-exhibit {
+	border-bottom: 1px solid lightgray;
+}
+
+.thesis-content {
+	display: flex;
+}
+
+.thesis-left {
+	width: 60%;
+	margin: 0px 24px;
+}
+.thesis-left video {
+	width: 100%;
+}
+
+.thesis-content h3 {
+    font-size: 35px;
+    color: darkslategray;
+}
+
+.thesis-content p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: gray;
+}
+.thesis-card {
+	display: flex;
+}
+
+.thesis-card img {
+	padding: 16px;
+    width: 35%;
+    object-fit: cover;
+}
+
+.thesis-card:hover {
+	background: lightgray;
+}
+
+footer {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 24px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+footer ul a {
+    color: gray;
+    text-decoration: none;
 }
